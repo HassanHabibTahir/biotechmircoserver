@@ -4,8 +4,8 @@
   const app = express();
   // Defines routes and their corresponding target servers
   const routes = {
-    "/biotech": "http://localhost:3001",
-    "/products": "http://localhost:3002",
+    "/biotech": "https://biotech-phi.vercel.app/",
+    // "/products": "http://localhost:3002",
   };
   for (const route in routes) {
     const target = routes[route];
